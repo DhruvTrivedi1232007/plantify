@@ -1,0 +1,257 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    max-width: fit-content;
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1231px;
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+.logo-img{
+    height: 60px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.logo span{
+    position: relative;
+    top: 40px;
+    right: 80px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #738b35;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    left: 180px;
+    top: -50px;
+}
+  
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    transition: 0.3s;
+}
+  
+.topnav a:hover {
+    background-color: #646464;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.icon{
+    position: relative;
+    left: 630px;
+    top: -70px;
+    height: 30px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 15px;
+}
+
+.img img{
+    height: 650px;
+    position: relative;
+    top: -130px;
+    left: 30px;
+}
+
+.sign{
+    position: relative;
+    top: -650px;
+    left: 800px;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.input{
+    position: relative;
+    left: 800px;
+    top: -550px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.div2:focus, input:focus{
+    outline: none;
+}
+
+.in1 {
+    height: 50px;
+    width: 400px;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.in2 {
+    height: 50px;
+    width: 400px;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    margin-top: 7px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.show-pin{
+    position: relative;
+    left: -10px;
+    top: -43px;
+}
+
+.show-pin-img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: -10px;
+    top: -35px;
+}
+
+.div-img-1{
+    height: 35px;
+    position: relative;
+    left: -10px;
+    top: -170px;
+}
+
+.div-img-2{
+    height: 35px;
+    position: relative;
+    left: -55px;
+    top: -110px;
+}
+
+.rem{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.p3{
+    position: relative;
+    left: -10px;
+}
+
+.button{
+    background-color: #55b8ff;
+    height: 50px;
+    width: 250px;
+    border-radius: 100px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.button a{
+    position: relative;
+    top: 14px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button :hover{
+    background-color: rgb(83, 83, 83);
+    color: white;
+    border-radius: 100px;
+    padding: 13px;
+    padding-left: 94.5px;
+    padding-right: 94.5px;
+    
+}
+
+.create{
+    position: relative;
+    top: 200px;
+    left: -535px;
+    font-size: 20px;
+}
+
+.create-btn{
+    background-color: #d9d9d9;
+    height: 50px;
+    width: 160px;
+    border-radius: 100px;
+    position: relative;
+    left: -525px;
+    top: 230px;
+    text-align: center;
+}
+
+.create-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.create-btn :hover{
+    background-color: white;
+    color: #000000;
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 38.5px;
+    padding-right: 39px;
+    border: solid 2px black;
+}
+
+.sign-in-with{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 100px;
+    margin: 20px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+

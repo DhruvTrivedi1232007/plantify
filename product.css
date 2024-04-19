@@ -1,0 +1,464 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    max-width: fit-content;
+    overflow-x: hidden;
+    height: fit-content;
+}
+
+.square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1231px;
+    height: 600px;
+    background-color: #eeeeee;
+}
+
+.logo-img{
+    height: 60px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.logo span{
+    position: relative;
+    top: 40px;
+    right: 80px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: #738b35;
+}
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    left: 180px;
+    top: -50px;
+}
+  
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    transition: 0.3s;
+}
+  
+.topnav a:hover {
+    background-color: #646464;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+  
+.tag-line{
+    position: relative;
+    left: 80px;
+    top: 10px;
+    font-size: 50px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.tag-line-2{
+    position: relative;
+    left: 80px;
+    top: -570px;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.icon{
+    position: relative;
+    left: 630px;
+    top: -70px;
+    height: 30px;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: 15px;
+}
+
+.product-img img{
+    height: 500px;
+    position: relative;
+    left: 80px;
+    top: -50px;
+}
+
+.name{
+    position: relative;
+    left: 700px;
+    top: -490px;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+    font-weight: 550;
+}
+
+.price{
+    position: relative;
+    left: 700px;
+    top: -450px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.add-to-cart{
+    background-color: #66ff88;
+    height: 50px;
+    width: 500px;   
+    position: relative;
+    left: 750px;
+    top: -400px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.buy-it-now{
+    background-color: #ffffff;
+    height: 50px;
+    width: 500px;
+    position: relative;
+    left: 750px;
+    top: -380px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.add-to-cart a{
+    text-decoration: none;
+    color: black;
+}
+
+.buy-it-now a{
+    text-decoration: none;
+    color: black;
+}
+
+.features img{
+    height: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: 640px;
+    top: -300px;
+}
+
+.features-txt-1{
+    height: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: -18px;
+    top: -290px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.features-txt-2{
+    height: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: 175px;
+    top: -330px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.features-txt-3{
+    height: 40px;
+    margin-left: 150px;
+    position: relative;
+    left: 360px;
+    top: -370px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.add-to-cart :hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 195px;
+    padding-right: 195px;
+    transition: 0.3s;
+}
+
+.buy-it-now :hover{
+    background-color: #e9e9e9;
+    color: black;
+    border-radius: 100px;
+    padding: 10px;
+    padding-left: 198px;
+    padding-right: 198px;
+    transition: 0.3s;
+}
+
+.about{
+    text-align: center;
+    position: relative;
+    top: -200px;
+    left: 150px;
+    font-size: 20px;
+    max-width: 80%;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.care{
+    position: relative;
+    left: 110px;
+    top: -100px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
+
+.care-1{
+    border: 2px solid #acacac;
+    height: 120px;
+    width: 1300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: -2px;
+}
+
+.care-1 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.care-1 span{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.care-1 p{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 15px;
+}
+
+.care-2{
+    border: 2px solid #acacac;
+    height: 120px;
+    width: 1300px;  
+    margin-bottom: -1.5px;
+}
+
+.care-2 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.care-2 span{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.care-2 p{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 15px;
+}
+
+.care-3{
+    border: 2px solid #acacac;
+    height: 120px;
+    width: 1300px;
+    margin-bottom: -1px;
+}
+
+.care-3 img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.care-3 span{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.care-3 p{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 15px;
+}
+
+.care-4{
+    border: 2px solid #acacac;
+    height: 120px;
+    width: 1300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.care-4 img{    
+    height: 35px;
+    width: 35px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.care-4 span{
+    position: relative;
+    left: 30px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.care-4 p{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 15px;
+}
+
+.grow img{
+    position: relative;
+    top: 55px;
+    width: 100%;
+}
+
+.footer{
+    background-color: #3f3f3f;
+    width: 1540px;
+    height: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.footer img{
+    width: 100%;
+    position: relative;
+    top: -50px;
+}
+
+.footer ul{
+    float: left;
+    margin-top: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0; 
+}
+
+.footer ul li{
+    text-decoration: none;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.follow-us img{
+    height: 25px;
+    width: 30px;
+    position: relative;
+    top: 270px;
+    right: 220px;
+}
+
+.footer footer span{
+    position: relative;
+    top: 250px;
+    right: 220px;
+    font-size: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0;
+}
